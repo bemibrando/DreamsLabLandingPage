@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--====== UNICONS ======-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!--====== CSS ======-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+
+    <title>Dreams Lab</title>
+</head>
+<body>
+    <!--====== HEADER ======-->
+    <header>
+        <nav class="nav">
+            <div class="logo">
+                <a href="#"><h1>Dreams Lab</h1></a>
+            </div>
+            <div class="nav-bar">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link">HOME</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">ABOUT</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">SERVICES</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--====== MAIN ======-->
+    <main>
+        <!--====== HOME ======-->
+        <section class="home" id="home">
+            <div class="home-content section grid">
+                <div class="home-data">
+                    <h2 class="home-title">Hi, We're <span class="paint">Dreams Lab</span></h2><br>
+                    <h3 class="home-subtitle">An application development company to make your ideas come alive!</h3>
+                </div>
+                <div class="home-btn">
+                    <a href="#contact" class="button">
+                        Let's work together
+                    </a>
+                    <i class="uil uil-angle-double-right"></i>
+                </div>
+                <div class="home-social">
+                    <a href="https://github.com/DreamsLabTram" target="_blank" class="home-social-icon">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--====== ABOUT ======-->
+        <section class="about section" id="about">
+            <div class="about-container grid">
+                <figure>
+                    <img src="./assets/img/About.png" alt="Ilustração de uma pessoa usando computador">
+                </figure>
+                <div class="about-data">
+                    <h2 class="section-title paint">&lt; About Us &gt;</h2>
+                    <p class="about-description">
+                        Our team is highly skilled and works with you to build a solution that meets your needs.
+                        <br><br>
+                        <span class="paint">Dreams Lab</span> is a full-service app development company with a team of developers, designers and 
+                        project managers who can develop web sites, softwares, applications, and anything else you need.
+                        <br><br>
+                        We develop what you need from <span class="paint">start to finish</span>!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--====== SERVICES ======-->
+        <section class="services section" id="services">
+            <div class="service-options">
+                <label class="service-item paint" onmouseenter="toggleServices('service-0')">Services</label>
+                <ul id="services-list" class="services-menu menu-tabbed">
+                    <!--====== SITES ======-->
+                    <li class="services-hide">
+                        <img src="assets/img/sites.png" alt="" onmouseenter="toggleServices('service-1')">
+                    </li>
+                    <!--====== DESIGN ======-->
+                    <li>
+                        <img src="assets/img/design.png" alt="" onmouseenter="toggleServices('service-2')">
+                    </li>
+                    <!--====== SOFTWARE ======-->
+                    <li>
+                        <img src="assets/img/softwares.png" alt="" onmouseenter="toggleServices('service-3')">
+                    </li>
+                    <!--====== APP ======-->
+                    <li>
+                        <img src="assets/img/app.png" alt="" onmouseenter="toggleServices('service-4')">
+                    </li>
+                </ul>
+            </div>
+            <section id="panels" class="container">
+                <!--====== SERVICES ======-->
+                <section id="service-0">
+                    <div class="services-data">
+                        <h2 class="paint">WHAT WE OFFER</h2>
+                        <p>We build your idea in-house and save your time for the important things.</p>
+                        <p>Dreams Lab take the time to understand your pain points and figure out how we can help you best.</p>
+                        <p>Our services involves conceptualising, designing, creating, and maintaining custom applications.</p>
+                    </div>
+                </section>
+                <!--====== SITES ======-->
+                <section id="service-1" class="services-hide">
+                    <div class="services-data">
+                        <h2 class="paint">SITES</h2>
+                        <p>We strive to help the company effectively understand customer needs by creating interesting, attractive and effective designs that allow customers to participate in a responsive website that is compatible with all devices.</p>
+                    </div>
+                </section>
+                <!--====== DESIGN ======-->
+                <section id="service-2" class="services-hide">
+                    <div class="services-data">
+                        <h2 class="paint">DESIGN</h2>
+                        <p>User experience and user interface design for all types of websites and web/mobile apps.</p>
+                        <p>We aim to deliver vibrant, intuitive, and impactful designs that empower businesses by understanding our customers' diverse goals and needs.</p>
+                        
+                    </div>
+                </section>
+                <!--====== SOFTWARE ======-->
+                <section id="service-3" class="services-hide">
+                    <div class="services-data">
+                        <h2 class="paint">SOFTWARE</h2>
+                        <p>The development of reliable and scalable software solutions for your company.</p>
+                        <p>We deliver custom solutions and products that perfectly fit the needs and behavior of their users.</p>
+                        
+                    </div>
+                </section>
+                <!--====== APP ======-->
+                <section id="service-4" class="services-hide">
+                    <div class="services-data">
+                        <h2 class="paint">APP</h2>
+                        <p>Invest in highly functional, user-friendly and attractive mobile applications developed by Dreams Lab.</p>
+                        <p>We can help you create mobile application design, migration, upgrade and ongoing maintenance services. Solutions designed to provide customized mobile application development that perfectly suits your needs.</p>
+                    </div>
+                </section>
+            </section>
+        </section>
+    </main>
+    <!--====== FOOTER ======-->
+    <footer id="contact">
+        <div class="footer-container container">
+            <div class="footer-data">
+                <h2 class="section-title"> Send us a<br>message</h2>
+            </div>
+            <div class="footer-info">
+                <div class="footer-address">
+                    <p>Curitba, Brazil</p>
+                    <span class="paint"><p>dreamlab.works@gmail.com</p></span>
+                </div>
+                <div class="footer-social">                
+                    <a href="https://github.com/DreamsLabTram" target="_blank" class="home-social-icon">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <p class="footer-copy">&#169; DreamsLabTeam. All right reserved</p>
+    </footer>
+    <!--============ SCROLL UP 
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon scroll__animation"></i>
+    </a>===========-->
+    <script src="assets/js/horizontal-menu.js"></script>
+</body>
+</html>
